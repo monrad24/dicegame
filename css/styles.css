@@ -1,0 +1,70 @@
+/*
+font-family: 'Major Mono Display', monospace;
+font-family: 'VT323', monospace;
+*/
+body {
+  font-family: 'Major Mono Display', monospace;
+  background-color: grey;
+  text-align: center;
+}
+
+#title {
+  font-weight: 900;
+  color: lightgrey;
+  margin: 3% 20% 2%;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.btn {
+  font-size: 2rem;
+  margin-top: 3%;
+}
+
+#game {
+  font-family: 'VT323', monospace;
+  margin: 0 25%;
+  color: lightgrey;
+}
+
+.player1 {
+}
+
+.player2 {
+  }
+
+.dice {
+  position: relative;
+  width: 80%;
+  /* left: 40px; */
+}
+
+.dice-p1-s1 {display: none}
+.dice-p1-s2 {display: none}
+.dice-p1-s3 {display: none}
+.dice-p1-s4 {display: none}
+.dice-p1-s5 {display: none}
+.dice-p1-s6 {display: inline}
+.dice-p2-s1 {display: none}
+.dice-p2-s2 {display: none}
+.dice-p2-s3 {display: none}
+.dice-p2-s4 {display: none}
+.dice-p2-s5 {display: none}
+.dice-p2-s6 {display: inline}
+
+#footer .container-fluid {
+  margin: 1% 0 30px 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: 10px;
+    color: lightgrey;
+}
+
+.footer-link:hover {
+ color: white;
+ text-decoration: none;
+}
